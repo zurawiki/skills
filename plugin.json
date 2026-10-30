@@ -2,5 +2,5 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "skills",
   "version": "0.1.0",
-  "description": "Reusable software development principles."
+  "description": "A personal collection of reusable agent skills."
 }
