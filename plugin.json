@@ -2,5 +2,25 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "skills",
   "version": "0.1.0",
-  "description": "A personal collection of reusable agent skills."
+  "description": "A personal collection of reusable agent skills.",
+  "author": {
+    "name": "Roger Zurawicki",
+    "url": "https://github.com/zurawiki"
+  },
+  "homepage": "https://github.com/zurawiki/skills",
+  "repository": "https://github.com/zurawiki/skills",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Zurawiki Skills",
+        "shortDescription": "A personal collection of reusable agent skills.",
+        "developerName": "Roger Zurawicki",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/zurawiki/skills",
+        "brandColor": "#F59E0B",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
 }

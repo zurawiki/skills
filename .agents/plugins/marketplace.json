@@ -1,5 +1,8 @@
 {
   "name": "zurawiki",
+  "interface": {
+    "displayName": "Zurawiki Skills"
+  },
   "plugins": [
     {
       "name": "skills",
