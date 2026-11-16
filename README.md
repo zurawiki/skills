@@ -1,8 +1,8 @@
 <img src="assets/icon.png" width="64" alt="">
 
-# Zurawiki Skills
+# zurawiki/skills
 
-A personal collection of reusable agent skills, packaged as a plugin for Claude Code and Codex.
+A personal collection of reusable agent skills, packaged as a plugin for Claude Code, Codex, and Cursor.
 
 ## Skills
 
@@ -28,8 +28,14 @@ codex plugin marketplace add zurawiki/skills
 codex plugin add skills@zurawiki
 ```
 
+Cursor: the repo is a Cursor plugin (`.cursor-plugin/plugin.json`); add it by its GitHub URL.
+
 ## Layout
 
 - `skills/` holds one `<name>/SKILL.md` per skill.
-- `plugin.json` is the portable manifest Codex reads; `.claude-plugin/plugin.json` is the one Claude Code reads. Keep name, version, description, author, and links identical in both.
-- `.claude-plugin/marketplace.json` and `.agents/plugins/marketplace.json` list this repo as a one-plugin marketplace for each platform.
+- `plugin.json` is the portable manifest Codex reads; `.claude-plugin/plugin.json` and `.cursor-plugin/plugin.json` are the ones Claude Code and Cursor read. Keep name, version, description, author, license, and links identical in all three.
+- `.claude-plugin/marketplace.json` and `.agents/plugins/marketplace.json` list this repo as a one-plugin marketplace for Claude Code and Codex.
+
+## License
+
+MIT

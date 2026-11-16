@@ -1,0 +1,12 @@
+{
+  "name": "skills",
+  "version": "0.1.0",
+  "description": "A personal collection of reusable agent skills.",
+  "author": {
+    "name": "Roger Zurawicki"
+  },
+  "homepage": "https://github.com/zurawiki/skills",
+  "repository": "https://github.com/zurawiki/skills",
+  "license": "MIT",
+  "logo": "assets/icon.png"
+}

@@ -9,15 +9,15 @@
   },
   "homepage": "https://github.com/zurawiki/skills",
   "repository": "https://github.com/zurawiki/skills",
+  "license": "MIT",
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Zurawiki Skills",
+        "displayName": "zurawiki/skills",
         "shortDescription": "A personal collection of reusable agent skills.",
         "developerName": "Roger Zurawicki",
         "category": "Productivity",
         "websiteURL": "https://github.com/zurawiki/skills",
-        "brandColor": "#F59E0B",
         "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
       }

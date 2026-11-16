@@ -1,6 +1,6 @@
 {
   "name": "skills",
-  "displayName": "Zurawiki Skills",
+  "displayName": "zurawiki/skills",
   "version": "0.1.0",
   "description": "A personal collection of reusable agent skills.",
   "author": {
@@ -9,5 +9,6 @@
   },
   "homepage": "https://github.com/zurawiki/skills",
   "repository": "https://github.com/zurawiki/skills",
+  "license": "MIT",
   "icon": "./assets/icon.png"
 }
