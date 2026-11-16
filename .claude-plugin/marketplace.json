@@ -1,0 +1,16 @@
+{
+  "name": "zurawiki",
+  "description": "zurawiki's personal agent skills.",
+  "owner": {
+    "name": "zurawiki"
+  },
+  "plugins": [
+    {
+      "name": "skills",
+      "source": "./",
+      "description": "A personal collection of reusable agent skills.",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ]
+}
