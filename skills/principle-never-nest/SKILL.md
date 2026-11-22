@@ -14,7 +14,7 @@ Exit early. Handle each unhappy case at the top and leave, so the main logic run
 - Invert the condition. Instead of wrapping the work in `if (ok) { ... }`, write `if (!ok) return` and continue below it.
 - Use the exit that fits: `return` in a function, `continue` or `break` in a loop, a throw for an error.
 - Drop the `else` after a branch that exits.
-- When several checks answer one question, extract them into a named function and guard on it: `if not is_processable(order): continue`.
+- Name a shared condition when the name explains why the work can proceed. Keep separate guards when each case has a different outcome.
 - Do not pack unrelated checks into one long compound condition.
 - An early exit is for a state the function may legitimately receive. Do not add guards for states that should never exist.
 - Apply this to code you write or change. Leave unrelated nested code alone.
